@@ -9,9 +9,24 @@
   html, body { margin: 0; padding: 0; background: #eeeeee; }
   body { min-width: 1024px; font-family: Arial, sans-serif; }
   .resume { width: 1024px; margin: 0 auto; background: #fff; }
-  .page { position: relative; width: 1024px; height: 1448px; overflow: hidden; background: #fff; }
-  .page img { display: block; width: 1024px; height: 1448px; object-fit: contain; user-select: none; -webkit-user-drag: none; }
-  .hotspot { position: absolute; display: block; z-index: 10; background: transparent; }
+ 
+   .page {
+  position: relative;
+  width: 1024px;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+}
+ 
+.page img {
+  display: block;
+  width: 1024px;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+   .hotspot { position: absolute; display: block; z-index: 10; background: transparent; }
   .hotspot:focus { outline: 2px solid #7772ff; outline-offset: 2px; }
   /* Страница 1 — контакты */
   .phone    { left: 800px; top: 119px; width: 155px; height: 25px; }
