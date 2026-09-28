@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1024">
+<title>Новик Евгения Олеговна — резюме</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #eeeeee; }
+  body { min-width: 1024px; font-family: Arial, sans-serif; }
+  .resume { width: 1024px; margin: 0 auto; background: #fff; }
+  .page { position: relative; width: 1024px; height: 1448px; overflow: hidden; background: #fff; }
+  .page img { display: block; width: 1024px; height: 1448px; object-fit: contain; user-select: none; -webkit-user-drag: none; }
+  .hotspot { position: absolute; display: block; z-index: 10; background: transparent; }
+  .hotspot:focus { outline: 2px solid #7772ff; outline-offset: 2px; }
+  /* Страница 1 — контакты */
+  .phone    { left: 800px; top: 119px; width: 155px; height: 25px; }
+  .email    { left: 760px; top: 149px; width: 195px; height: 25px; }
+  .telegram { left: 820px; top: 178px; width: 135px; height: 25px; }
+
+  /* Страница 2 — портфолио */
+  .behance  { left: 720px; top: 956px; width: 240px; height: 22px; }
+  .dribbble { left: 720px; top: 979px; width: 240px; height: 22px; }
+  .copy     { left: 720px; top: 1002px; width: 240px; height: 22px; }
+
+  @media print {
+    html, body { background: #fff; }
+    .resume { margin: 0; }
+    .page { break-after: page; page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+<main class="resume">
+  <section class="page">
+    <img src="assets/cv-1.jpg" alt="Резюме Евгении Новик — страница 1">
+    <a class="hotspot phone" href="tel:+79994642894" aria-label="Позвонить: 8 999 464-28-94"></a>
+    <a class="hotspot email" href="mailto:neocopywriter@mail.ru" aria-label="Написать на email"></a>
+    <a class="hotspot telegram" href="https://t.me/evgenianovik" target="_blank" rel="noopener" aria-label="Открыть Telegram"></a>
+  </section>
+
+  <section class="page">
+    <img src="assets/cv-2.jpg" alt="Резюме Евгении Новик — страница 2">
+    <a class="hotspot behance" href="https://www.behance.net/novik-design" target="_blank" rel="noopener" aria-label="Портфолио веб-дизайн"></a>
+    <a class="hotspot dribbble" href="https://www.dribbble.com/novik-design" target="_blank" rel="noopener" aria-label="Портфолио SMM-дизайн"></a>
+    <a class="hotspot copy" href="http://neocopywriter.tilda.ws" target="_blank" rel="noopener" aria-label="Портфолио копирайтинг"></a>
+  </section>
+
+  <section class="page">
+    <img src="assets/cv-3.jpg" alt="Резюме Евгении Новик — страница 3">
+  </section>
+</main>
+</body>
+</html>
